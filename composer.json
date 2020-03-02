@@ -14,7 +14,11 @@
 
         "flownative/google-cloudstorage": "5.1.*",
         "rokka/imagine-vips": "0.10.*",
-        "codeq/publishnotifier": "~2.2.1"
+        "codeq/publishnotifier": "~2.2.1",
+
+        "neos/contentrepository-development-collection": "dev-master",
+        "neos/content-repository-dimensionspace": "dev-master",
+        "neos/event-sourcing": "dev-master"
     },
     "repositories": {
         "distribution": {
