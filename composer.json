@@ -18,7 +18,9 @@
 
         "neos/contentrepository-development-collection": "dev-master",
         "neos/content-repository-dimensionspace": "dev-master",
-        "neos/event-sourcing": "dev-master"
+        "neos/event-sourcing": "dev-master",
+        "neos/neos-ui": "dev-master",
+        "neos/neos-ui-compiled": "dev-master"
     },
     "repositories": {
         "distribution": {

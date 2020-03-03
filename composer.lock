@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd7198e514b31d8319277208bf3d4ae4",
+    "content-hash": "5d8e1368ffb4200616e17b31ba93c72c",
     "packages": [
         {
             "name": "aertmann/history",
@@ -4380,12 +4380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-development-collection.git",
-                "reference": "1f75f75e793dba89f35aee130187572edd3569db"
+                "reference": "ece5861ea2f33d58525842a85fb1c88db58fc7dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/contentrepository-development-collection/zipball/1f75f75e793dba89f35aee130187572edd3569db",
-                "reference": "1f75f75e793dba89f35aee130187572edd3569db",
+                "url": "https://api.github.com/repos/neos/contentrepository-development-collection/zipball/ece5861ea2f33d58525842a85fb1c88db58fc7dd",
+                "reference": "ece5861ea2f33d58525842a85fb1c88db58fc7dd",
                 "shasum": ""
             },
             "require": {
@@ -4431,7 +4431,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "Event sourced Content Repository Neos packages in a joined repository for easier development.",
-            "time": "2020-02-13T10:03:47+00:00"
+            "time": "2020-03-03T09:40:55+00:00"
         },
         {
             "name": "neos/diff",
@@ -4465,11 +4465,11 @@
         },
         {
             "name": "neos/docs-neos-io",
-            "version": "dev-es-cr",
+            "version": "dev-event-sourced",
             "dist": {
                 "type": "path",
                 "url": "./DistributionPackages/Neos.DocsNeosIo",
-                "reference": "9567fc03a50ff56b7f4d568ffa06cae68b13c5f3"
+                "reference": "08213245e74497db68345f383151b1139bf95f49"
             },
             "require": {
                 "aertmann/history": "~2.0",
@@ -4486,10 +4486,11 @@
                 "jonnitto/prettyembedvimeo": "~2.0",
                 "jonnitto/prettyembedyoutube": "~6.0",
                 "moc/notfound": "^3.1",
+                "neos/event-sourced-content-repository": "*",
                 "neos/googleanalytics": "^3.1",
                 "neos/neos": "~5.1",
-                "neos/neos-ui": "^5.1",
-                "neos/neos-ui-compiled": "^5.1",
+                "neos/neos-ui": "dev-master",
+                "neos/neos-ui-compiled": "dev-master",
                 "neos/nodetypes-contentreferences": "*",
                 "neos/redirecthandler-databasestorage": "^4.0",
                 "neos/redirecthandler-neosadapter": "^4.0",
@@ -5672,16 +5673,16 @@
         },
         {
             "name": "neos/neos-ui",
-            "version": "5.1.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui.git",
-                "reference": "fec596757403f162813f706b1a666ece7d4cf8ff"
+                "reference": "1269dd3975e0e60675323ddc8bad9d6602e4a155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui/zipball/fec596757403f162813f706b1a666ece7d4cf8ff",
-                "reference": "fec596757403f162813f706b1a666ece7d4cf8ff",
+                "url": "https://api.github.com/repos/neos/neos-ui/zipball/1269dd3975e0e60675323ddc8bad9d6602e4a155",
+                "reference": "1269dd3975e0e60675323ddc8bad9d6602e4a155",
                 "shasum": ""
             },
             "require": {
@@ -5777,20 +5778,20 @@
                 "GPL-3.0-or-later"
             ],
             "description": "Neos CMS UI written in React",
-            "time": "2020-02-21T07:10:01+00:00"
+            "time": "2020-02-26T13:32:48+00:00"
         },
         {
             "name": "neos/neos-ui-compiled",
-            "version": "5.1.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui-compiled.git",
-                "reference": "df6a441ab3bcaaaa83ca0f39d3a71e031497a321"
+                "reference": "c6065c5d4bed31769a693e647af61e23f5657419"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui-compiled/zipball/df6a441ab3bcaaaa83ca0f39d3a71e031497a321",
-                "reference": "df6a441ab3bcaaaa83ca0f39d3a71e031497a321",
+                "url": "https://api.github.com/repos/neos/neos-ui-compiled/zipball/c6065c5d4bed31769a693e647af61e23f5657419",
+                "reference": "c6065c5d4bed31769a693e647af61e23f5657419",
                 "shasum": ""
             },
             "require": {
@@ -5808,7 +5809,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2020-02-21T07:15:55+00:00"
+            "time": "2020-02-26T12:48:16+00:00"
         },
         {
             "name": "neos/nodetypes-basemixins",
@@ -9635,6 +9636,8 @@
         "neos/contentrepository-development-collection": 20,
         "neos/content-repository-dimensionspace": 20,
         "neos/event-sourcing": 20,
+        "neos/neos-ui": 20,
+        "neos/neos-ui-compiled": 20,
         "sandstorm/plumber": 20,
         "sandstorm/phpprofiler": 20
     },
