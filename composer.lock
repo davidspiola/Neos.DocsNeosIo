@@ -4184,7 +4184,7 @@
         },
         {
             "name": "neos/docs-neos-io",
-            "version": "dev-es-cr",
+            "version": "dev-update-to-51",
             "dist": {
                 "type": "path",
                 "url": "./DistributionPackages/Neos.DocsNeosIo",
