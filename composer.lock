@@ -816,16 +816,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.9.3",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "1291a16ce3f48bfdeca39d64fca4875098af4d7b"
+                "reference": "472c917b2a083ec7d2fa25c55fd099d1300e2515"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/1291a16ce3f48bfdeca39d64fca4875098af4d7b",
-                "reference": "1291a16ce3f48bfdeca39d64fca4875098af4d7b",
+                "url": "https://api.github.com/repos/composer/composer/zipball/472c917b2a083ec7d2fa25c55fd099d1300e2515",
+                "reference": "472c917b2a083ec7d2fa25c55fd099d1300e2515",
                 "shasum": ""
             },
             "require": {
@@ -838,17 +838,17 @@
                 "psr/log": "^1.0",
                 "seld/jsonlint": "^1.4",
                 "seld/phar-utils": "^1.0",
-                "symfony/console": "^2.7 || ^3.0 || ^4.0",
-                "symfony/filesystem": "^2.7 || ^3.0 || ^4.0",
-                "symfony/finder": "^2.7 || ^3.0 || ^4.0",
-                "symfony/process": "^2.7 || ^3.0 || ^4.0"
+                "symfony/console": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/filesystem": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/finder": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/process": "^2.7 || ^3.0 || ^4.0 || ^5.0"
             },
             "conflict": {
                 "symfony/console": "2.8.38"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "phpunit/phpunit-mock-objects": "^2.3 || ^3.0"
+                "phpspec/prophecy": "^1.10",
+                "symfony/phpunit-bridge": "^3.4"
             },
             "suggest": {
                 "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
@@ -861,7 +861,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.10-dev"
                 }
             },
             "autoload": {
@@ -892,7 +892,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-02-04T11:58:49+00:00"
+            "time": "2020-03-10T13:08:05+00:00"
         },
         {
             "name": "composer/semver",
@@ -3941,16 +3941,16 @@
         },
         {
             "name": "neos/cache",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/cache.git",
-                "reference": "31726c6e11d1c4c2e8979d15ee89f46eedf3a17e"
+                "reference": "e351f47e61491e7c930a083432acb2acb687146a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/cache/zipball/31726c6e11d1c4c2e8979d15ee89f46eedf3a17e",
-                "reference": "31726c6e11d1c4c2e8979d15ee89f46eedf3a17e",
+                "url": "https://api.github.com/repos/neos/cache/zipball/e351f47e61491e7c930a083432acb2acb687146a",
+                "reference": "e351f47e61491e7c930a083432acb2acb687146a",
                 "shasum": ""
             },
             "require": {
@@ -3991,7 +3991,7 @@
             ],
             "description": "Neos Cache Framework",
             "homepage": "http://flow.neos.io",
-            "time": "2020-01-15T14:42:33+00:00"
+            "time": "2020-03-03T17:13:53+00:00"
         },
         {
             "name": "neos/composer-plugin",
@@ -4585,7 +4585,7 @@
         },
         {
             "name": "neos/eel",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/eel.git",
@@ -4627,7 +4627,7 @@
         },
         {
             "name": "neos/error-messages",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/error-messages.git",
@@ -4700,16 +4700,16 @@
         },
         {
             "name": "neos/flow",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/flow.git",
-                "reference": "bd579f98a58159a0b42ad31568e45dbdcd2aa4da"
+                "reference": "acb28cff09c16d403403c573d1a71b6e9ba6b915"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/flow/zipball/bd579f98a58159a0b42ad31568e45dbdcd2aa4da",
-                "reference": "bd579f98a58159a0b42ad31568e45dbdcd2aa4da",
+                "url": "https://api.github.com/repos/neos/flow/zipball/acb28cff09c16d403403c573d1a71b6e9ba6b915",
+                "reference": "acb28cff09c16d403403c573d1a71b6e9ba6b915",
                 "shasum": ""
             },
             "require": {
@@ -4778,11 +4778,11 @@
             ],
             "description": "Flow Application Framework",
             "homepage": "http://flow.neos.io",
-            "time": "2020-02-25T08:51:48+00:00"
+            "time": "2020-03-03T18:03:23+00:00"
         },
         {
             "name": "neos/flow-log",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/flow-log.git",
@@ -4826,7 +4826,7 @@
         },
         {
             "name": "neos/fluid-adaptor",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/fluidadaptor.git",
@@ -4984,16 +4984,16 @@
         },
         {
             "name": "neos/fusion-afx",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/fusion-afx.git",
-                "reference": "6a7b1208c6c488f5745c1bf6df2fd9fc39e9b2fc"
+                "reference": "1dcbd4c68cee86ab94c1929b8c42620498fcf3cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/fusion-afx/zipball/6a7b1208c6c488f5745c1bf6df2fd9fc39e9b2fc",
-                "reference": "6a7b1208c6c488f5745c1bf6df2fd9fc39e9b2fc",
+                "url": "https://api.github.com/repos/neos/fusion-afx/zipball/1dcbd4c68cee86ab94c1929b8c42620498fcf3cc",
+                "reference": "1dcbd4c68cee86ab94c1929b8c42620498fcf3cc",
                 "shasum": ""
             },
             "require": {
@@ -5021,7 +5021,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "JSX inspired compact syntax for Neos.Fusion",
-            "time": "2019-11-26T20:03:45+00:00"
+            "time": "2020-01-29T07:41:29+00:00"
         },
         {
             "name": "neos/fusion-form",
@@ -5167,7 +5167,7 @@
         },
         {
             "name": "neos/http-factories",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/http-factories.git",
@@ -5677,12 +5677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui.git",
-                "reference": "1269dd3975e0e60675323ddc8bad9d6602e4a155"
+                "reference": "4a99a1f0d60750b697fc0245f1638dbc81e2b24f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui/zipball/1269dd3975e0e60675323ddc8bad9d6602e4a155",
-                "reference": "1269dd3975e0e60675323ddc8bad9d6602e4a155",
+                "url": "https://api.github.com/repos/neos/neos-ui/zipball/4a99a1f0d60750b697fc0245f1638dbc81e2b24f",
+                "reference": "4a99a1f0d60750b697fc0245f1638dbc81e2b24f",
                 "shasum": ""
             },
             "require": {
@@ -5778,7 +5778,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "Neos CMS UI written in React",
-            "time": "2020-02-26T13:32:48+00:00"
+            "time": "2020-03-07T13:55:14+00:00"
         },
         {
             "name": "neos/neos-ui-compiled",
@@ -6728,7 +6728,7 @@
         },
         {
             "name": "neos/utility-arrays",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-arrays.git",
@@ -6769,7 +6769,7 @@
         },
         {
             "name": "neos/utility-files",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-files.git",
@@ -6810,7 +6810,7 @@
         },
         {
             "name": "neos/utility-mediatypes",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-mediatypes.git",
@@ -6850,7 +6850,7 @@
         },
         {
             "name": "neos/utility-objecthandling",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-objecthandling.git",
@@ -6891,7 +6891,7 @@
         },
         {
             "name": "neos/utility-opcodecache",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-opcodecache.git",
@@ -6927,7 +6927,7 @@
         },
         {
             "name": "neos/utility-pdo",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-pdo.git",
@@ -6963,7 +6963,7 @@
         },
         {
             "name": "neos/utility-schema",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-schema.git",
@@ -7004,7 +7004,7 @@
         },
         {
             "name": "neos/utility-unicode",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-unicode.git",
@@ -9396,6 +9396,136 @@
     ],
     "packages-dev": [
         {
+            "name": "jpbourbon/redisgraph_php",
+            "version": "v0.5.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpbourbon/redisgraph_php.git",
+                "reference": "2d17d16467d2044e45b6b45efac4454ad46fd979"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jpbourbon/redisgraph_php/zipball/2d17d16467d2044e45b6b45efac4454ad46fd979",
+                "reference": "2d17d16467d2044e45b6b45efac4454ad46fd979",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "predis/predis": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RedisGraphPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joao Pedro Bourbon",
+                    "email": "jpbourbon@gmail.com",
+                    "homepage": "https://www.linkedin.com/in/jpbourbon/"
+                }
+            ],
+            "description": "RedisGraph php client",
+            "homepage": "https://github.com/jpbourbon/redisgraph_php",
+            "keywords": [
+                "cypher",
+                "graph",
+                "redisgraph",
+                "tphp"
+            ],
+            "time": "2019-11-10T18:28:43+00:00"
+        },
+        {
+            "name": "kjdev/redis-graph",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kjdev/php-redis-graph.git",
+                "reference": "143725c63f5a9ea51953048f00e2825f0ab376a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kjdev/php-redis-graph/zipball/143725c63f5a9ea51953048f00e2825f0ab376a1",
+                "reference": "143725c63f5a9ea51953048f00e2825f0ab376a1",
+                "shasum": ""
+            },
+            "suggest": {
+                "ext-redis": "If you want to use redis extension.",
+                "predis/predis": "If you want to use predis."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Redis\\": "src/Redis/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP RedisGraph client",
+            "homepage": "https://github.com/kjdev/php-redis-graph",
+            "keywords": [
+                "redis"
+            ],
+            "time": "2018-10-24T22:59:55+00:00"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2016-06-16T16:22:20+00:00"
+        },
+        {
             "name": "sandstorm/phpprofiler",
             "version": "dev-master",
             "source": {
@@ -9647,5 +9777,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.2"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }

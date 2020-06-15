@@ -20,7 +20,7 @@ Neos:
   Neos:
     eventLog:
       enabled: true
-    userInterface:
+    #userInterface:
       navigateComponent:
         nodeTree:
           loadingDepth: 1
