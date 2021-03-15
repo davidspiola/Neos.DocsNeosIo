@@ -30,9 +30,9 @@ class EditorsDataSource extends AbstractDataSource
     /**
      * @param NodeInterface $node The node that is currently edited (optional)
      * @param array $arguments Additional arguments (key / value)
-     * @return array
+     * @return mixed JSON serializable data
      */
-    public function getData(NodeInterface $node = null, array $arguments)
+    public function getData(NodeInterface $node = null, array $arguments = [])
     {
         $options = [];
         foreach ($this->userService->getUsers() as $user) {
