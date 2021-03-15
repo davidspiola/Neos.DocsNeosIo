@@ -4,17 +4,15 @@
     "license": "GPL-3.0-or-later",
     "config": {
         "vendor-dir": "Packages/Libraries",
-        "bin-dir": "bin",
-        "platform": {
-            "php": "7.4.6"
-        }
+        "bin-dir": "bin"
     },
     "require": {
         "neos/docs-neos-io": "@dev",
+        "flownative/google-cloudstorage": "5.*",
+        "rokka/imagine-vips": "^0.13.0",
+        "neos/setup": "^4.1.1"
 
-        "flownative/google-cloudstorage": "4.*",
-        "rokka/imagine-vips": "^0.1",
-        "yoast/yoast-seo-for-neos": "1.0.0-beta"
+
     },
     "repositories": {
         "distribution": {
@@ -27,5 +25,8 @@
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
         "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+    },
+    "require-dev": {
+        "neos/buildessentials": "6.0.x-dev"
     }
 }
